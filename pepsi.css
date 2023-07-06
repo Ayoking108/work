@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#0062be ;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#0062be ;
+    transition: 0.5s;
+} 
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header.logo{
+    position: relative;
+    max-width: 80px;
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    display: inline-block;
+    color:#fff;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.content{
+    position: relative;
+    width:100% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.content .textbox{
+    position: relative;
+    max-width: 600px;
+}
+.content .textbox h2{
+    color: #fff;
+    font-size: 1.5cm;
+    line-height:1.5cm;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content .textbox h2 span{
+    font-size: 1.9cm;
+}
+.content .textbox p{
+    color: #fff;
+}
+.content .textbox a{
+    display: flex;
+    background-color: red;
+    width: 50%;
+    height:40px ;
+    justify-content: center;
+    align-self:center;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+ 
+}
+.content .imgbox{
+    widows: 600px;
+    display: flex;
+    padding-right: 100px;
+    margin-top: 10px;
+    justify-content: flex-end;
+}
+.content .imgbox img{
+    max-width: 260px;
+}
+.thumb{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+.thumb li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.thumb li:hover{
+    transform: translateY(-15px);
+}
+.thumb li img{
+    max-width: 40px;
+
+
+}
